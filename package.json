@@ -1,0 +1,22 @@
+{
+  "name": "ignore",
+  "version": "1.0.0",
+  "description": "git忽略文件的建立...\r ### 描述\r > 我们在使用nodej开发前端的时候，常常会安装一些第三方包,或者node+react或vue的时候，常常会有一些并不需要提交的或者文件太大提交的压力太大，这个时候我们就需要添加忽略文件，\r 但是我们在添加忽略文件的时候经常会遇到一个问题，尤其是初次添加的时候...\r ### 问题\r > 我在远端创建了一个仓库，然后拉取下来，本地再新建一个 .gitignore 忽略文件\r ```\r .DS_Store\r node_modules/\r npm-debug.log*\r yarn-debug.log*\r yarn-error.log*\r package-lock.json\r dist/\r test/\r config/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisong981174580/ignore.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lisong981174580/ignore/issues"
+  },
+  "homepage": "https://github.com/lisong981174580/ignore#readme",
+  "devDependencies": {
+    "qs": "^6.5.2"
+  }
+}
