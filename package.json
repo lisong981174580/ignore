@@ -19,5 +19,8 @@
   "devDependencies": {
     "moment": "^2.22.2",
     "qs": "^6.5.2"
+  },
+  "dependencies": {
+    "less": "^3.8.1"
   }
 }
