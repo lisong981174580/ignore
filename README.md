@@ -83,17 +83,17 @@ config/
  
 4. 把剩下的复制过来，npm  i（个人建议不要用cnpm） ,完了照上面说的改package.json文件
 
-5. 在吧剩下的文件提交，然后删掉本地的 vue-element-admin
+5. 在把剩下的文件提交，然后删掉本地的 vue-element-admin
 
 ### 二、create-react-app如何复制
 
 1. 自己的仓库提前建好
 
-2.create-react-app myapp 先在本地生成一份
+2. create-react-app myapp 先在本地生成一份
 
-3.npm run eject(生成配置文件)
+3. npm run eject(生成配置文件)
 
-4.照上面说的改package.json文件,删掉package-lock.json文件
+4. 照上面说的改package.json文件,删掉package-lock.json文件
 
 这些不该虽然不影响运行，但是最改成自己
 
@@ -107,9 +107,9 @@ config/
 
 5. 把myapp的.gitignore文件复制到自己的仓库，完了提交
 
-6.把剩下的文件除了/node_modules和.gitignore不复制，剩下的全部复制，npm i ,运行没问题后，完了提交
+6. 把剩下的文件除了/node_modules和.gitignore不复制，剩下的全部复制，npm i ,运行没问题后，完了提交
 
-7.删掉本地把myapp
+7. 删掉本地把myapp
 
 
 
