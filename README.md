@@ -81,7 +81,7 @@ config/
 
 3. 先把vue-element-admin的.gitignore文件复制到自己的仓库，完了提交
  
-4. 把剩下的复制过来，npm  i ,完了照上面说的改package.json文件
+4. 把剩下的复制过来，npm  i（个人建议不要用cnpm） ,完了照上面说的改package.json文件
 
 5. 在吧剩下的文件提交，然后删掉本地的 vue-element-admin
 
