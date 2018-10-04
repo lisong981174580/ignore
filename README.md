@@ -85,7 +85,7 @@ config/
 
 5. 在吧剩下的文件提交，然后删掉本地的 vue-element-admin
 
-### 一、create-react-app如何复制
+### 二、create-react-app如何复制
 
 1. 自己的仓库提前建好
 
