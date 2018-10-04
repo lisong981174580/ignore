@@ -72,17 +72,18 @@ config/
 ```
 
 ### 一、vue-element-admin如何复制
+
 > 学习网址 https://panjiachen.github.io/vue-element-admin-site/zh/guide/#%E5%8A%9F%E8%83%BD
 
 1. 自己的仓库提前建好
 
 2. 本地克隆一份 vue-element-admin
 
-3.先把vue-element-admin的.gitignore文件复制到自己的仓库，完了提交
+3. 先把vue-element-admin的.gitignore文件复制到自己的仓库，完了提交
+ 
+4. 把剩下的复制过来，npm  i ,完了照上面说的改package.json文件
 
-4.把剩下的复制过来，npm  i ,完了照上面说的改package.json文件
-
-5.在吧剩下的文件提交，然后删掉本地的 vue-element-admin
+5. 在吧剩下的文件提交，然后删掉本地的 vue-element-admin
 
 
 
