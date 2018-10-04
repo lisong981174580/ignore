@@ -95,15 +95,15 @@ config/
 
 4. 照上面说的改package.json文件,删掉package-lock.json文件
 
-这些不该虽然不影响运行，但是最改成自己
+  这些不该虽然不影响运行，但是最改成自己
 
-```
-  "name": "vue-element-admin",
-  "version": "3.9.0",
-  "description": "A magical vue admin. Typical templates for enterprise applications. Newest development stack of vue. Lots of awesome   features",
-  "author": "Pan <panfree23@gmail.com>",
-  "license": "MIT",
-```
+  ```
+    "name": "vue-element-admin",
+    "version": "3.9.0",
+    "description": "A magical vue admin. Typical templates for enterprise applications. Newest development stack of vue. Lots of awesome   features",
+    "author": "Pan <panfree23@gmail.com>",
+    "license": "MIT",
+  ```
 
 5. 把myapp的.gitignore文件复制到自己的仓库，完了提交
 
