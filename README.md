@@ -35,3 +35,54 @@ config/
 > 我们在远程创建仓库的时候就把忽略文件创建好，完了本地直接拉取就可以了，这样不但不会报错，同时也可以生效(必须是文件(.gitignore文件)而不是文件夹，否则这样也会报错)
 #### 方法二：
 > 创建好仓库后拉取后，第一件事就是创建忽略文件(.gitignore文件)，提交后再进行开发
+
+
+## 克隆别人的脚手架
+### 问题一：首次提交代码忽略文件没有生效
+
+一般情况下，我们克隆别人的脚手架后，都会包含一份别人写好的.gitignore文件，但是如果对于小白的话，可能会直接把脚手架生成的代码，直接全部复制粘贴到自己的项目仓库中，但是发现首次提交代码的时候.gitignore文件并没有生效
+
+### 原因：
+
+忽略文件一定要在项目代码提交前提交，因为只有在远端有了忽略文件后才会生效，首次如果把忽略文件和其他代码一块提交的话，那么因为远端没有，所以首次也不会生效
+
+### 问题二：粘贴别人代码后提交不到自己的仓库
+
+### 原因：
+通过脚手架生成的代码的package.json文件已经配置好了指定仓库，所以你虽然在提交，实际上你一直在向别人的仓库提交，所以不能盲目的粘贴，记得改配置
+
+这些配置要么直接删掉，要么改成你自己的
+```
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanJiaChen/vue-element-admin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PanJiaChen/vue-element-admin/issues"
+  },
+```
+
+这些不该虽然不影响运行，但是最改成自己
+```
+  "name": "vue-element-admin",
+  "version": "3.9.0",
+  "description": "A magical vue admin. Typical templates for enterprise applications. Newest development stack of vue. Lots of awesome   features",
+  "author": "Pan <panfree23@gmail.com>",
+  "license": "MIT",
+```
+
+### 一、vue-element-admin如何复制
+> 学习网址 https://panjiachen.github.io/vue-element-admin-site/zh/guide/#%E5%8A%9F%E8%83%BD
+
+1. 自己的仓库提前建好
+
+2. 本地克隆一份 vue-element-admin
+
+3.先把vue-element-admin的.gitignore文件复制到自己的仓库，完了提交
+
+4.把剩下的复制过来，npm  i ,完了照上面说的改package.json文件
+
+5.在吧剩下的文件提交，然后删掉本地的 vue-element-admin
+
+
+
